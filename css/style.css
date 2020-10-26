@@ -6,229 +6,224 @@ body {
   font-family: "Spartan", sans-serif;
 }
 
-.row{
-    margin: 0;
+.row {
+  margin: 0;
 }
 
-.col-lg-6, .col-lg-4{
-    padding: 0;
+.col-lg-6,
+.col-lg-4 {
+  padding: 0;
 }
 
-.container-fluid{
-    padding: 4% 1% 0% 8%;
+.container-fluid {
+  padding: 4% 1% 0% 8%;
 }
 
 /* heading */
 
 .header {
-    color: hsl(300, 43%, 22%);
-    font-size: 2.5rem;
-    width: 64%;
-    font-weight: 700;
-    margin-bottom: 1%;
-  }
-  
-  .heading-p {
-    color: hsl(303, 10%, 53%);
-    width: 60%;
-    margin-bottom: 5%;
-  }
+  color: hsl(300, 43%, 22%);
+  font-size: 2.5rem;
+  width: 64%;
+  font-weight: 700;
+  margin-bottom: 1%;
+}
+
+.heading-p {
+  color: hsl(303, 10%, 53%);
+  width: 60%;
+  margin-bottom: 5%;
+}
 
 /* Rating */
 
 .rate-box {
-    background-color: hsl(300, 24%, 96%);
-    display: flex;
-    padding: 2%;
-    width: 65%;
-    border-radius: 10px;
-    margin-bottom: 10px;
+  background-color: hsl(300, 24%, 96%);
+  display: flex;
+  padding: 2%;
+  width: 65%;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
-.star-box{
-    margin-left: 30px;
+.star-box {
+  margin-left: 30px;
 }
 
-.star{
-    margin-left: 2px;
+.star {
+  margin-left: 2px;
 }
 
-.rate-paragraph{ 
-    font-size: 15px;
-    font-weight: bold;
-    margin: 0;
-    padding-top: 4px;
-    color: hsl(300, 43%, 38%);
-    margin-left: 35px;
+.rate-paragraph {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0;
+  padding-top: 4px;
+  color: hsl(300, 43%, 38%);
+  margin-left: 35px;
 }
 
-.box2{
-    position: relative;
-    left: 50px;
+.box2 {
+  position: relative;
+  left: 50px;
 }
 
-.box3{
-    position: relative;
-    left: 100px;
+.box3 {
+  position: relative;
+  left: 100px;
 }
 
 /* Testimonial */
 
- #testimonial-section{
-    padding: 0 5% 0% 8%;
-} 
-
-.testimonial{
-    background-color: hsl(300, 43%, 22%);
-    width: 90%;
-    border-radius: 10px;
-    padding: 26px;
+#testimonial-section {
+  padding: 0 5% 0% 8%;
 }
 
-.avatar-img{
-    border-radius: 100%;
-    float: left;
-    width: 15%;
-    margin-right: 25px;
+.testimonial {
+  background-color: hsl(300, 43%, 22%);
+  width: 90%;
+  border-radius: 10px;
+  padding: 26px;
 }
 
-.buyer-name{
-    color: hsl(0, 0%, 100%);
-    margin: 0;
-    font-size: 13px;
-    font-weight: 600;
-    margin-top: 5px;
+.avatar-img {
+  border-radius: 100%;
+  float: left;
+  width: 15%;
+  margin-right: 25px;
 }
 
-.buyer-statue{
-    color: hsl(333, 80%, 67%);
-    margin: 0;
-    font-size: 13px;
-    margin-bottom: 41px;
-
+.buyer-name {
+  color: hsl(0, 0%, 100%);
+  margin: 0;
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 5px;
 }
 
-.testimonial-p{
-    color: hsl(0, 0%, 100%);
-    font-size: 13px;
-    line-height: 2;
-    font-weight: 200;
+.buyer-statue {
+  color: hsl(333, 80%, 67%);
+  margin: 0;
+  font-size: 13px;
+  margin-bottom: 41px;
 }
 
-.testimonial2{
-    position: relative;
-    top: 30px;
+.testimonial-p {
+  color: hsl(0, 0%, 100%);
+  font-size: 13px;
+  line-height: 2;
+  font-weight: 200;
 }
 
-.testimonial3{
-    position: relative;
-    top: 60px;
+.testimonial2 {
+  position: relative;
+  top: 30px;
+}
+
+.testimonial3 {
+  position: relative;
+  top: 60px;
 }
 
 /* footer */
 
-footer{
+footer {
+  text-align: center;
+  margin: 3% auto;
+}
+
+@media (max-width: 1355px) and (min-width: 1250px) {
+  .rate-paragraph {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1355px) {
+  .rate-paragraph {
+    font-size: 11px;
+    margin-left: 0px;
+  }
+
+  .star {
+    margin-left: 0px;
+    width: 13%;
+  }
+
+  .star-box {
+    margin-left: 24px;
+  }
+}
+
+@media (max-width: 991px) {
+  body {
+    background: url(../images/bg-pattern-top-mobile.svg) no-repeat top left;
+    background-size: auto;
+  }
+
+  h1 {
+    margin-top: 0;
+  }
+
+  .container-fluid {
+    padding: 8% 0;
+  }
+
+  .header {
     text-align: center;
-    margin: 3% auto;
-}
+    margin: 0 auto 3%;
+    width: 87%;
+  }
 
+  .heading-p {
+    text-align: center;
+    margin: 0 auto 3%;
+    width: 90%;
+  }
 
+  .rate-box {
+    position: static;
+    margin: 1% auto;
+    width: 90%;
+    padding: 2% 5%;
+    display: block;
+    text-align: center;
+  }
 
+  .star {
+    margin-left: 3%;
+    width: 20px;
+  }
 
+  .star-box {
+    margin: 0 auto;
+  }
 
+  .rate-paragraph {
+    font-size: 17px;
+    margin: 0 auto;
+  }
 
+  #testimonial-section {
+    padding: 0;
+    margin-bottom: 10%;
+  }
 
+  .testimonial {
+    width: 90%;
+    margin: 0 5%;
+  }
 
-@media (max-width:1355px) and (min-width: 1250px){
-    .rate-paragraph{
-        font-size: 13px;
-    }
-}
+  .buyer-name {
+    margin-top: 3%;
+    font-size: 15px;
+  }
 
-@media (min-width:992px) and ( max-width:1355px){
-    .rate-paragraph{
-        font-size: 11px;
-        margin-left: 0px;
-        
-    }
+  .buyer-statue {
+    margin-bottom: 10%;
+  }
 
-    .star {
-        margin-left: 0px;
-        width: 13%;
-    }
-
-    .star-box {
-        margin-left: 24px;
-    }
-}
-
-@media (max-width:991px) {
-    
-    body {
-        background: url(../images/bg-pattern-top-mobile.svg) no-repeat top left;
-        background-size: auto;
-      }
-
-
-    h1{
-        margin-top: 0;
-    }
-
-    .container-fluid{
-        padding: 8% 0;
-    }
-
-    .header{
-        text-align: center;
-        margin: 0 auto 3%;
-        width: 87%;
-    }
-
-    .heading-p{
-        text-align: center;
-        margin: 0 auto 3%;
-        width: 90%;
-    }
-
-    .rate-box {
-        position: static;
-        margin: 1% auto;
-        width: 90%;
-        padding: 2% 5%;
-        display: block;
-        text-align: center;
-    }
-
-    .star {
-        margin-left: 3%;
-        width: 20px;
-    }
-
-    .rate-paragraph {
-        font-size: 20px;
-    }
-
-    #testimonial-section{
-        padding: 0;
-        margin-bottom: 10%;
-    } 
-
-    .testimonial{
-        width: 90%;
-        margin: 0 5%;
-    }
-
-    .buyer-name {
-        margin-top: 3%;
-        font-size: 15px;
-    }
-
-    .buyer-statue {
-        margin-bottom: 10%;
-    }
-
-    footer {
-        margin: 0 auto;
-        padding: 10%;
-    }
+  footer {
+    margin: 0 auto;
+    padding: 10%;
+  }
 }
