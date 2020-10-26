@@ -182,7 +182,6 @@ footer{
     .header{
         text-align: center;
         margin: 0 auto 3%;
-        font-size: 3rem;
     }
 
     .heading-p{
@@ -226,5 +225,10 @@ footer{
 
     .buyer-statue {
         margin-bottom: 10%;
+    }
+
+    footer {
+        margin: 0 auto;
+        padding: 10%;
     }
 }
